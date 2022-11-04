@@ -1,2 +1,1 @@
-Exercises of RTES WS'22 branched, no main trunk
-Uni Stuttgart
+Exercises of RTES WS'22 
