@@ -1,0 +1,16 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+cl : command line warning D9002: ignoring unknown option '/wc4574'
+  main_exercise.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winscard.h(1422,1): warning C5031: #pragma warning(pop): likely mismatch, popping warning state pushed in different file
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h : message : #pragma warning(push)
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\Windows.h(254,17): warning C5031: #pragma warning(pop): likely mismatch, popping warning state pushed in different file
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winscard.h : message : #pragma warning(push)
+G:\My Drive\Germany\Course\Semester 1\RTES\chatterbox\exercise_01\FreeRTOS\Chatterbox-App\WIN32-MSVC\main_exercise.c(75,2): warning C4091: 'static ': ignored on left of 'xTaskParam' when no variable is declared
+G:\My Drive\Germany\Course\Semester 1\RTES\chatterbox\exercise_01\FreeRTOS\Chatterbox-App\WIN32-MSVC\main_exercise.c(158,30): warning C4774: 'printf' : format string expected in argument 1 is not a string literal
+G:\My Drive\Germany\Course\Semester 1\RTES\chatterbox\exercise_01\FreeRTOS\Chatterbox-App\WIN32-MSVC\main_exercise.c(158,30): message : e.g. instead of printf(name); use printf("%s", name); because format specifiers in 'name' may pose a security issue
+G:\My Drive\Germany\Course\Semester 1\RTES\chatterbox\exercise_01\FreeRTOS\Chatterbox-App\WIN32-MSVC\main_exercise.c(161,30): warning C4774: 'printf' : format string expected in argument 1 is not a string literal
+G:\My Drive\Germany\Course\Semester 1\RTES\chatterbox\exercise_01\FreeRTOS\Chatterbox-App\WIN32-MSVC\main_exercise.c(161,30): message : e.g. instead of printf(name); use printf("%s", name); because format specifiers in 'name' may pose a security issue
+G:\My Drive\Germany\Course\Semester 1\RTES\chatterbox\exercise_01\FreeRTOS\Chatterbox-App\WIN32-MSVC\main_exercise.c(166,26): warning C4774: 'printf' : format string expected in argument 1 is not a string literal
+G:\My Drive\Germany\Course\Semester 1\RTES\chatterbox\exercise_01\FreeRTOS\Chatterbox-App\WIN32-MSVC\main_exercise.c(166,26): message : e.g. instead of printf(name); use printf("%s", name); because format specifiers in 'name' may pose a security issue
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\Windows.h : warning C5032: detected #pragma warning(push) with no corresponding #pragma warning(pop)
+  WIN32.vcxproj -> G:\My Drive\Germany\Course\Semester 1\RTES\chatterbox\exercise_01\FreeRTOS\Chatterbox-App\WIN32-MSVC\Debug\RTOSDemo.exe
