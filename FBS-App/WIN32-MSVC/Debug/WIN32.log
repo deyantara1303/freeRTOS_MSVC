@@ -1,0 +1,20 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  main_exercise.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winscard.h(1422,1): warning C5031: #pragma warning(pop): likely mismatch, popping warning state pushed in different file
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h : message : #pragma warning(push)
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\Windows.h(254,17): warning C5031: #pragma warning(pop): likely mismatch, popping warning state pushed in different file
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winscard.h : message : #pragma warning(push)
+C:\Users\antar\source\repos\deyantara1303\freeRTOS_exercises\FBS-App\WIN32-MSVC\main_exercise.c(85,39): warning C4047: 'initializing': 'TaskHandle_t' differs in levels of indirection from 'int'
+C:\Users\antar\source\repos\deyantara1303\freeRTOS_exercises\FBS-App\WIN32-MSVC\main_exercise.c(200,12): warning C4018: '<': signed/unsigned mismatch
+C:\Users\antar\source\repos\deyantara1303\freeRTOS_exercises\FBS-App\WIN32-MSVC\main_exercise.c(205,23): warning C4018: '<': signed/unsigned mismatch
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\Windows.h : warning C5032: detected #pragma warning(push) with no corresponding #pragma warning(pop)
+C:\Users\antar\source\repos\deyantara1303\freeRTOS_exercises\FBS-App\WIN32-MSVC\main_exercise.c(210): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+C:\Users\antar\source\repos\deyantara1303\freeRTOS_exercises\FBS-App\WIN32-MSVC\main_exercise.c(205): message : index 'j' range checked by comparison on this line
+C:\Users\antar\source\repos\deyantara1303\freeRTOS_exercises\FBS-App\WIN32-MSVC\main_exercise.c(210): message : feeds call on this line
+C:\Users\antar\source\repos\deyantara1303\freeRTOS_exercises\FBS-App\WIN32-MSVC\main_exercise.c(207): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+C:\Users\antar\source\repos\deyantara1303\freeRTOS_exercises\FBS-App\WIN32-MSVC\main_exercise.c(205): message : index 'j' range checked by comparison on this line
+C:\Users\antar\source\repos\deyantara1303\freeRTOS_exercises\FBS-App\WIN32-MSVC\main_exercise.c(207): message : feeds call on this line
+C:\Users\antar\source\repos\deyantara1303\freeRTOS_exercises\FBS-App\WIN32-MSVC\main_exercise.c(204): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+C:\Users\antar\source\repos\deyantara1303\freeRTOS_exercises\FBS-App\WIN32-MSVC\main_exercise.c(202): message : index 'i' range checked by comparison on this line
+C:\Users\antar\source\repos\deyantara1303\freeRTOS_exercises\FBS-App\WIN32-MSVC\main_exercise.c(204): message : feeds call on this line
+  WIN32.vcxproj -> C:\Users\antar\source\repos\deyantara1303\freeRTOS_exercises\FBS-App\WIN32-MSVC\Debug\FBS-App.exe
