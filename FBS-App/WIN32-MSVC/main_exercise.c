@@ -252,12 +252,10 @@ static void schedulerTaskFBS(struct xTaskParam* pvParameters)
 		*/
 		printf("\n----------------------------------------------------------------------------------\
 			\nDeleting all worker tasks and suspending self\n");
-		vTaskDelete(xTask[0]);
-		vTaskDelete(xTask[1]);
-		vTaskDelete(xTask[2]);
-		vTaskDelete(xTask[3]);
-		vTaskDelete(xTask[4]);
-		vTaskDelete(xTask[5]);
+		for (int i = 0; i <= 5; i++)
+		{
+			vTaskDelete(xTask[i]);
+		}
 		vTaskSuspend(NULL);
 	}
 }
