@@ -41,15 +41,6 @@
  * can crash the port.
  */
 /*
-******************************************************************************
-* Group 2 Team 10
-----------------------
-* Antara Dey  3643532
-* Aishwarya Chaudhari 3643749
-* Eric Bossecker  3335688
-* Subrahmanya Gunaga 3510076
-* *****************************************************************************
-* /
 
 /* Standard includes. */
 #include <stdio.h>
