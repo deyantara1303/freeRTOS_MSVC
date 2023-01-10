@@ -168,7 +168,7 @@ static void sensor1TaskIPC(Info* pvParameter)
 
 	for (;;)
 	{
-		/*Zero phasing*/
+		/*Synchronize the start time of sensor tasks*/
 		vTaskDelayUntil(&xNextWakeTime, xBlockTime);
 
 	//printf("Sensor 1 at %d\n", xTaskGetTickCount());
@@ -199,7 +199,7 @@ static void sensor2aTaskIPC(Info* pvParameter)
 
 	for (;;)
 	{
-		/*Zero phasing*/
+		/*Synchronize the start time of sensor tasks*/
 		vTaskDelayUntil(&xNextWakeTime, xBlockTime);
 
 	//printf("Sensor 2a at %d\n", xTaskGetTickCount());
@@ -230,7 +230,7 @@ static void sensor2bTaskIPC(Info* pvParameter)
 
 	for (;;)
 	{
-		/*Zero phasing*/
+		/*Synchronize the start time of sensor tasks*/
 		vTaskDelayUntil(&xNextWakeTime, xBlockTime);
 
 	//printf("Sensor 2b at %d\n", xTaskGetTickCount());
